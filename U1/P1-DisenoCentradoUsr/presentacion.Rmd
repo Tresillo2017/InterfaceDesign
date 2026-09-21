@@ -1,0 +1,71 @@
+---
+title: "Análisis del Contexto de Uso"
+subtitle: "Aplicación para docentes de una escuela infantil"
+date: "`r format(Sys.Date(), '%d/%m/%Y')`"
+output:
+  beamer_presentation:
+    theme: "Madrid"
+    slide_level: 2
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+---
+
+## Introducción
+
+- Diseño Centrado en el Usuario (DCU): el primer paso es **analizar el contexto de uso**.
+- El contexto de uso está formado por:
+  - Las **tareas** que realizan los usuarios.
+  - Las **características de los usuarios**.
+  - Las **características del entorno** de uso.
+- Aplicación instalada en un ordenador de cada aula.
+- Objetivo: facilitar al máximo la labor diaria del profesorado.
+
+## Tareas de la aplicación (I)
+
+- **Control de asistencia**: pasar lista, registrar entradas/salidas y ausencias.
+- **Registro de incidencias**: comportamiento, salud (fiebre, golpes, alergias), incidentes.
+- **Comunicación con familias**: mensajes, avisos, fotos del día, boletines.
+- **Planificación de actividades**: agenda diaria, rutinas (comida, siesta, juego).
+
+## Tareas de la aplicación (II)
+
+- **Seguimiento del desarrollo del niño/a**: hitos evolutivos, observaciones.
+- **Gestión de comidas y siestas**: qué y cuánto ha comido, horas de sueño.
+- **Consulta rápida de datos**: alergias, contactos de emergencia, medicación.
+- **Generación de informes**: resúmenes para las familias o para dirección del centro.
+
+## Características de los usuarios (I)
+
+- **Perfil**: docentes/educadores infantiles, no necesariamente expertos en tecnología.
+- **Edad y experiencia digital variable**: desde nativos digitales hasta personal con poca soltura tecnológica.
+- **Formación**: pedagogía infantil, no informática — la app debe ser intuitiva sin necesidad de formación técnica.
+- **Actitud**: uso motivado por la utilidad, poca paciencia ante interfaces complejas.
+
+## Características de los usuarios (II)
+
+- **Carga cognitiva alta**: atienden simultáneamente a varios niños pequeños.
+- **Uso interrumpido y esporádico**: sesiones cortas y frecuentes, no uso continuado.
+- **Necesidad de manos libres o rapidez**: muchas veces con las manos ocupadas.
+- **Trabajo en equipo**: varios docentes pueden compartir el mismo dispositivo/aula.
+
+## Características del entorno (aula) (I)
+
+- **Ruido ambiental alto**: llanto, gritos, música, actividad constante de los niños.
+- **Espacio compartido**: el ordenador está en el aula, accesible también a los niños.
+- **Interrupciones constantes**: la atención al alumnado tiene prioridad sobre la app.
+- **Riesgo de manchas/golpes**: entorno con pintura, comida, agua, objetos pequeños.
+
+## Características del entorno (aula) (II)
+
+- **Iluminación variable**: luz natural cambiante, reflejos en pantalla.
+- **Un único ordenador por aula**: posible uso compartido entre varios docentes.
+- **Tiempo limitado**: la app se consulta en momentos puntuales entre tareas educativas.
+- **Necesidad de privacidad de datos**: información sensible de menores (salud, contactos).
+
+## Conclusiones
+
+- El contexto de uso condiciona directamente el diseño: interfaz **simple, rápida y robusta**.
+- Prioridad: **accesos rápidos**, poco texto, iconos claros, tolerancia a interrupciones.
+- Debe funcionar bien en un entorno **ruidoso, compartido y con poco tiempo disponible**.
+- Este análisis es la base para las siguientes fases del Diseño Centrado en el Usuario.
